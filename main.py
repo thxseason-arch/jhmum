@@ -2,7 +2,7 @@ import flet as ft
 import requests
 
 # Subtitua pela URL do seu backend rodando na nuvem
-BACKEND_URL = "SUA_URL_AQUI"
+BACKEND_URL = "https://globalhistoricalsatelitedata.streamlit.app/"
 
 def main(page: ft.Page):
     page.title = "GOES Satélite"
