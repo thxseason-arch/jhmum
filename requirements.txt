@@ -1,2 +1,7 @@
-flet
-requests
+streamlit
+cartopy
+xarray
+s3fs
+matplotlib
+numpy
+h5netcdf
