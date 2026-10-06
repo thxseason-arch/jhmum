@@ -19,7 +19,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
-COPY outputs ./outputs
 COPY README.md .
 
 RUN mkdir -p /app/glm_cache /app/outputs
